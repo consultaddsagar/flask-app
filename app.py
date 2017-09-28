@@ -10,5 +10,9 @@ def hello():
 def hello():
     return "Home Page"
 
+@app.route('/dashboard')
+def hello():
+    return "Dashboard"
+
 if __name__ == '__main__':
     app.run()
